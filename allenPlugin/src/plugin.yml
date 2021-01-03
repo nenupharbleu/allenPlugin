@@ -1,0 +1,11 @@
+name: allenPlugin
+main: com.antiform.allenPlugin.Main
+version: 0
+api-version: 1.16
+
+commands:
+    item:
+        usage: /<command> [item] [count]
+        aliases: [i, getitem]
+        permission: allenPlugin.op
+        permission-message: This is for the adults get out
